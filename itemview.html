@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blueberry Pop-Tarts</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<link rel="stylesheet" href="mobile.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head>
+<body>		
+	<div data-role = "page" id = "itemview">
+		<header data-role = "header" data-backbtn="false"></header>
+		
+		<div data-role = "content">
+
+			<ul data-role="listview" data-filter = "false" data-inset = "false">
+				<li id = "itemheader">
+					<img src="images/poptart.jpg" alt="" class = "ui-li-thumb ui-li-icon"/>
+					<div style="float:right;font-size: 20px;margin-right:-65px;margin-top:8px;color: gray">
+						&#9734;
+					</div>
+					
+					<h1>Blueberry Pop-Tarts</h1>
+				</li>
+				<li data-theme = "d">
+
+					<div class="ui-grid-c">
+						<div class="ui-block-a priceBox">
+							<h1 id = "price">$3.99</h1>
+							<a id="otherLocations" href = "#" data-role="button" data-theme = "e">
+								3rd Cheapest
+							</a>
+						</div>
+						<div class = "ui-block descBox">
+							<table cellspacing="5">
+								<tr>
+								    <td class = "item-desc">
+								        <span class="item-prop-key">Unit Cost ($):</span>
+								    </td>
+								    <td>
+								        <span class="item-prop-value">.50 / tart</span>
+								    </td>
+								</tr>
+								<tr>
+								    <td class = "item-desc">
+								        <span class="item-prop-key">Budget (%):</span>
+								    </td>
+								    <td>
+								        <span class="item-prop-value">2.93</span>
+								    </td>
+								</tr>
+							</table>
+
+						</div>
+					</div><!-- /grid-a -->
+				</li>
+				<li data-role = "list-divider">
+				   	Description
+				</li>
+				
+				<li style = "padding-right:15px">
+					<p class = "p-desc">Kellogg&#8217;s&#174; Pop-Tarts&#174; Frosted Blueberry toaster pastries are Made For Fun!&#8482; Fully baked and ready to eat right from the box, or you can warm them in the toaster. Some flavors are delicious even when frozen. Pop-Tarts&#174; provide six essential vitamins and minerals. They contain zero grams of trans fat, and they&#8217;re available in a variety of fun flavors. Make today more fun with Kellogg&#8217;s&#174; Pop-Tarts&#174; Frosted Blueberry toaster pastries. For product information, fun ideas, promotions and more, visit poptarts.com.</p>
+				</li>
+				
+				<li data-role = "list-divider">
+				   	Reviews
+				</li>
+				<li>
+					&#9733;&#9733;&#9733;&#9733;&#9733; Fantastic Product!
+					<p class="p-desc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore... 
+					</p>
+				</li>
+				<li>
+					&#9733;&#9734;&#9734;&#9734;&#9734; Made my son sick!
+					<p class="p-desc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore... 
+					</p>
+				</li>
+				<li>
+					&#9733;&#9734;&#9734;&#9734;&#9734; Made my son sick!
+					<p class="p-desc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore... 
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" rel="external">Home</a></li>
+					<li><a href="coupons.html" rel="external">Coupons</a></li>
+					<li><a href="budget.html" rel="external">Budget</a></li>
+					<li><a href="favorites.html" rel="external">Favorites</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /footer -->
+	</div>
+</body>
+</html>

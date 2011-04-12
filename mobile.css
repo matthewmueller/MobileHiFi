@@ -1,0 +1,66 @@
+html {
+  overflow-y: scroll;
+}
+#home #barcode {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#home #barcode img {
+  width: 100%;
+}
+#itemview {
+  /* Item view 2*/
+
+}
+#itemview #itemheader {
+  padding-left: 60px;
+}
+#itemview #itemheader h1 {
+  margin-top: 15px;
+  padding: 0;
+}
+#itemview #price {
+  color: #414141;
+  margin-bottom: 0;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#itemview .item-prop-key {
+  font-weight: bold;
+}
+#itemview .item-desc {
+  text-align: left;
+}
+#itemview .item-prop-value {
+  font-weight: normal;
+}
+#itemview .descBox {
+  margin-left: 100px;
+}
+#itemview .p-desc {
+  margin-top: .6em;
+  overflow: visible;
+  text-overflow: none;
+  white-space: normal;
+}
+#itemview #otherLocations {
+  height: 15px;
+  width: 65px;
+  margin-left: 0;
+  font-size: 9px;
+}
+#itemview #otherLocations .ui-btn-inner {
+  padding: 0px;
+}
+#itemview #navdial {
+  margin-top: 14px;
+  margin-left: -15px;
+  width: 377px;
+}
+#itemview #navdial li a {
+  height: 133px;
+  font-size: 18px;
+}

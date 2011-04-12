@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blueberry Pop-Tarts</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<link rel="stylesheet" href="mobile.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head>
+<body>		
+	<div data-role = "page" id = "itemview">
+		<header data-role = "header" data-backbtn="false"></header>
+		
+		<div data-role = "content">
+
+			<ul data-role="listview" data-filter = "false" data-inset = "false">
+				<li id = "itemheader">
+					<img src="images/poptart.jpg" alt="" class = "ui-li-thumb ui-li-icon"/>
+					<div style="float:right;font-size: 20px;margin-right:-65px;margin-top:8px;color: gray">
+						&#9734;
+					</div>
+					
+					<h1>Blueberry Pop-Tarts</h1>
+				</li>
+				<li data-theme = "d">
+
+					<div class="ui-grid-c">
+						<div class="ui-block-a priceBox">
+							<h1 id = "price">$3.99</h1>
+							<a id="otherLocations" href = "#" data-role="button" data-theme = "e">
+								3rd Cheapest
+							</a>
+						</div>
+						<div class = "ui-block descBox">
+							<table cellspacing="5">
+								<tr>
+								    <td class = "item-desc">
+								        <span class="item-prop-key">Unit Cost ($):</span>
+								    </td>
+								    <td>
+								        <span class="item-prop-value">.50 / tart</span>
+								    </td>
+								</tr>
+								<tr>
+								    <td class = "item-desc">
+								        <span class="item-prop-key">Budget (%):</span>
+								    </td>
+								    <td>
+								        <span class="item-prop-value">2.93</span>
+								    </td>
+								</tr>
+							</table>
+
+						</div>
+					</div><!-- /grid-a -->
+				</li>
+			</ul>
+			<div data-role="navbar" id = "navdial" >
+				<ul >
+					<li><a href="itemview2/description.html" data-theme = "a">Description</a></li>
+					<li><a href="itemview2/reviews.html" data-theme = "a">Reviews</a></li>
+					<li><a href="coupons.html" rel="external"  data-theme = "a">Coupons</a></li>
+					<li><a href="budget.html" rel="external"  data-theme = "a">Budget</a></li>
+					<li><a href="index.html" rel="external" data-theme = "a">Home</a></li>
+					<li><a href="favorites.html" rel="external" data-theme = "a">Favorites</a></li>
+
+
+				</ul>
+			</div><!-- /navbar -->
+				
+		</div>
+	</div>
+</body>
+</html>
